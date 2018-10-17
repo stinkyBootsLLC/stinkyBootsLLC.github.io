@@ -3,6 +3,10 @@
     transition: 0.3s;
     max-width: 100%;
     border-radius: 5px;
+    padding: 1em;
+}
+.newcard > h4{
+    text-align: center;
 }
 .newcard > img {
     border-radius: 5px 5px 0 0;

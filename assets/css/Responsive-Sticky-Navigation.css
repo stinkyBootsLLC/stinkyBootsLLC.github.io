@@ -2,7 +2,7 @@ nav {
   font-family: Raleway;
   font-weight: 500;
   font-size: 1em;
-  background: #421414;
+  background: #000000;
   color: #ffffff;
   line-height: 0;
   position: absolute;
@@ -31,14 +31,14 @@ nav ul li.subNav ul {
   position: absolute;
   margin-top: 20px;
   padding: 20px;
-  background: #521f1f;
+  background: #330000;
   margin-left: -20px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 nav ul li.subNav:hover {
-  background: #521f1f;
+  background: #4d0000;
   color: #aaa;
 }
 
