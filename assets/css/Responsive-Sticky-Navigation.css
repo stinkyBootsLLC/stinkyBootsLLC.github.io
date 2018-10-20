@@ -2,14 +2,15 @@ nav {
   font-family: Raleway;
   font-weight: 500;
   font-size: 1em;
-  background: #000000;
-  color: #ffffff;
+  background: #181818;
+  color: #D4DDF7;
   line-height: 0;
   position: absolute;
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
   transition: all 1s ease;
+ 
 }
 
 nav ul.navHold {
@@ -31,19 +32,20 @@ nav ul li.subNav ul {
   position: absolute;
   margin-top: 20px;
   padding: 20px;
-  background: #330000;
+  background: #292828;
   margin-left: -20px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 nav ul li.subNav:hover {
-  background: #4d0000;
-  color: #aaa;
+  background:#262525;
+  color: #D8DDEE;
 }
 
 nav ul li.subNav:hover ul, nav ul li.subNav ul:hover {
   display: block;
+ 
 }
 
 nav ul li.subNav ul li {
@@ -52,22 +54,22 @@ nav ul li.subNav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #D4DDF7;
   text-decoration: none;
   padding: 4px;
 }
 
 nav ul li a:hover {
   cursor: pointer;
-  color: #fff;
+  color: #FE2712;
   -moz-box-shadow: 0 0 0 1px #fff;
   -webkit-box-shadow: 0 0 0 1px #fff;
   box-shadow: 0 0 0 1px #fff;
   border-radius: 4px;
   padding: 4px;
   text-decoration: none;
-  background-color: #fff;
-  color: #800000;
+  background-color: #FE2712;
+  color: #fff;
 }
 
 .imageHold, .imageHold img {

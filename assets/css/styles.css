@@ -1,4 +1,5 @@
 .newcard {
+    background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     max-width: 100%;
@@ -6,7 +7,7 @@
     padding: 1em;
 }
 .newcard > h4{
-    text-align: center;
+    text-align: left;
 }
 .newcard > img {
     border-radius: 5px 5px 0 0;
@@ -19,6 +20,21 @@
 .newcard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
+.card-row-padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.welcome {
+    background-color:#282828d9;
+    color: #D4DDF7;
+
+}
+
+.footer-bck{
+    background-color:#282828d9;
+    z-index: -2;
+}
+
 
 
 
