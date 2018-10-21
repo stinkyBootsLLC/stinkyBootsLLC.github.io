@@ -1,4 +1,12 @@
-.newcard {
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+body{
+    font: 400 14px/28px "Roboto", sans-serif;
+    background: linear-gradient(black, white);
+    background-size: cover;
+}
+
+.app-disp-card {
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -6,10 +14,16 @@
     border-radius: 5px;
     padding: 1em;
 }
-.newcard > h4{
+.app-disp-card > h4{
     text-align: left;
+    color: #322d2d;
 }
-.newcard > img {
+
+.app-disp-card > p {
+    line-height: 1.2;
+    color: #545454;
+}
+.app-disp-card > img {
     border-radius: 5px 5px 0 0;
     max-width: 100%;
     display: block;
@@ -17,7 +31,7 @@
     margin-right: auto;
 }
 
-.newcard:hover {
+.app-disp-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 .card-row-padding{
@@ -25,10 +39,35 @@
     padding-bottom: 60px;
 }
 .welcome {
-    background-color:#282828d9;
-    color: #D4DDF7;
+   /* background-color:#292828; */  
+    color: white;
 
 }
+.store-badges{
+   /* background-color: #292828;*/
+}
+div .store-badges > h1 {
+   
+    color: white;
+    text-align: center;
+    padding-bottom: 1px;
+}
+.store-badges > img {
+
+    display: block;
+    margin-top: -2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+
+}
+
+
+.policy{
+    background-color: white;
+    color: black;
+}
+
 
 .footer-bck{
     background-color:#282828d9;

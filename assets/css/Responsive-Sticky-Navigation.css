@@ -1,9 +1,13 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+
+
 nav {
   font-family: Raleway;
   font-weight: 500;
   font-size: 1em;
-  background: #181818;
-  color: #D4DDF7;
+  background: red;
+  color: white;
   line-height: 0;
   position: absolute;
   width: 100%;
@@ -18,12 +22,22 @@ nav ul.navHold {
   padding: 0;
   margin: 0;
   display: inline-block;
+  
+ 
+  
 }
+
+
 
 nav ul li {
   float: left;
   padding: 20px;
   line-height: 1;
+ 
+ 
+}
+.subNav:hover{
+  border: 1px solid white;
 }
 
 nav ul li.subNav ul {
@@ -32,19 +46,23 @@ nav ul li.subNav ul {
   position: absolute;
   margin-top: 20px;
   padding: 20px;
-  background: #292828;
+  background: #bb0000;
   margin-left: -20px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 nav ul li.subNav:hover {
-  background:#262525;
-  color: #D8DDEE;
+  background:#bb0000;
+  color: white;
+ 
+  
+  
 }
 
 nav ul li.subNav:hover ul, nav ul li.subNav ul:hover {
   display: block;
+ 
  
 }
 
@@ -54,7 +72,7 @@ nav ul li.subNav ul li {
 }
 
 nav ul li a {
-  color: #D4DDF7;
+  color: white;
   text-decoration: none;
   padding: 4px;
 }
@@ -62,14 +80,15 @@ nav ul li a {
 nav ul li a:hover {
   cursor: pointer;
   color: #FE2712;
-  -moz-box-shadow: 0 0 0 1px #fff;
+ -moz-box-shadow: 0 0 0 1px #fff;
   -webkit-box-shadow: 0 0 0 1px #fff;
   box-shadow: 0 0 0 1px #fff;
-  border-radius: 4px;
+  border-radius: 0px;
   padding: 4px;
   text-decoration: none;
   background-color: #FE2712;
-  color: #fff;
+  color: rgb(233, 232, 232);
+  
 }
 
 .imageHold, .imageHold img {
@@ -78,15 +97,12 @@ nav ul li a:hover {
   background-color: #000000;
   text-align: center;
 }
-.cardImageHold > img {
-  max-width: 50%;
-  background-color: transparent;
 
-}
 
 article {
   padding: 100px 50px 50px;
-  font-family: Raleway;
+  font: 400 14px/28px "Roboto", sans-serif;
+  /*font-family: Raleway;*/
   line-height: 1.75em;
 }
 
