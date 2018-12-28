@@ -1,0 +1,269 @@
+/*
+  * Created: 9/25/2018
+  * By: Eduardo Estrada
+  * Design: Vlad
+*/
+
+/* @TODO remove all the colors for visiual */
+@media (max-width:1024px){
+
+    body {
+        /*background-color: white;*/
+    }
+
+    article.firstArticle > h3 {
+       font-size: large;
+       font-weight: bold;     
+    }
+
+    article.firstArticle > p { 
+        font-size: small;
+    }
+
+    article.secondArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+        /*background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+
+    article.secondArticle > h3 {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    article.secondArticle > p {
+        font-size: small; 
+    }
+
+    article.thirdArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+        /*background-color:antiquewhite;*/
+        margin-top:0.5em; 
+        /*box-shadow: 5px 10px 8px #888888;*/
+    }
+
+    article.thirdArticle > h3 {
+        font-weight: bold;
+        font-size: large;  
+    }
+
+    article.thirdArticle > p {
+        font-size: small;
+    }
+
+}/* end @media (max-width:1024px) */
+
+@media (max-width:992px){
+
+    body {
+        /*background-color: blue;*/
+    }
+
+    article.firstArticle > h3 {
+       font-size: large;
+       font-weight: bold;     
+    }
+
+    article.firstArticle > p { 
+        font-size: small;
+    }
+
+    article.secondArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+       /* background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+
+    article.secondArticle > h3 {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    article.secondArticle > p {
+        font-size: small; 
+    }
+
+    article.thirdArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+       /* background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+
+    article.thirdArticle > h3 {
+        font-weight: bold;
+        font-size: large;  
+    }
+
+    article.thirdArticle > p {
+        font-size: small;
+    }
+
+}/* end @media (max-width:992px) */
+
+@media (max-width:800px){
+    body {
+        /*background-color: seagreen;*/
+    }
+    article.firstArticle > h3 {
+        font-size: large;
+        font-weight: bold;     
+    }
+    article.firstArticle > p { 
+        font-size: small;
+    }
+    article.secondArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+       /* background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+    article.secondArticle > h3 {
+        font-weight: bold;
+        font-size: large;
+    }
+    article.secondArticle > p {
+        font-size: small; 
+    }
+     article.thirdArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+       /* background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+    article.thirdArticle > h3 {
+        font-weight: bold;
+        font-size: large;  
+    }
+    article.thirdArticle > p {
+        font-size: small;
+    }
+}/* end @media (max-width:800px) */
+
+
+@media (max-width:600px){
+    body {
+        /*background-color: yellow;*/
+    }
+     article.firstArticle > h3 {
+       font-size: large;
+       font-weight: bold;     
+    }
+    article.firstArticle > p { 
+        font-size: small;
+    }
+     article.secondArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+       /* background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+    article.secondArticle > h3 {
+        font-weight: bold;
+        font-size: large;
+    }
+    article.secondArticle > p {
+        font-size: small; 
+    }
+     article.thirdArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+        /*background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+    article.thirdArticle > h3 {
+        font-weight: bold;
+        font-size: large;  
+    }
+    article.thirdArticle > p {
+        font-size: small;
+    }
+
+    .biggerFont {
+        font-size: 1rem !important;
+    }
+}/* end @media (max-width:600px) */
+
+@media (max-width:320px){
+    body {
+        /*background-color: red;*/
+    }
+    article.firstArticle > h3 {
+       font-size: medium;
+       font-weight: bold;     
+    }
+    article.firstArticle > p { 
+        font-size: small;
+    }
+    article.secondArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+       /* background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+    article.secondArticle > h3 {
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    article.secondArticle > p {
+        font-size: small; 
+    }
+    article.thirdArticle {
+        position: relative;
+        display:inline-block;
+        width: 100%;
+        height: auto;
+       /* background-color:antiquewhite;*/
+        margin-top:0.5em; 
+       /* box-shadow: 5px 10px 8px #888888;*/
+    }
+    article.thirdArticle > h3 {
+        font-weight: bold;
+        font-size: medium;  
+    }
+    article.thirdArticle > p {
+        font-size: small;
+    }
+
+    div.billboard > h1 {
+        font-size: large;
+    }
+    div.billboard > p {
+        font-size: large;
+    }
+
+
+}
+
+} /* end @media (max-width:320px) */
+

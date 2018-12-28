@@ -1,0 +1,28 @@
+.parallax-image {
+background: url("slide1.jpg");
+}
+
+.image-background {
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100%;
+min-width: 1024px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0px;
+left: 0px;
+background-size: cover;
+z-index: -2;
+}
+
+.parallax-image:before {
+content: '';
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+bottom: 0;
+z-index: -1;
+background: linear-gradient(transparent, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0.9), black);
+}
